@@ -16,7 +16,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: List all commands
-        run: ls -lrth && df -Th && free -h && netstat -tulnp && vmstat && top
+        run: ls -lrth && df -Th && free -h && netstat -tulnp && vmstat
         
       - name: Installing tools
         run: sudo apt install ansible -y
