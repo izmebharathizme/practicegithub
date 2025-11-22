@@ -25,7 +25,7 @@ jobs:
         run: free -h
         
       - name: Installing tools
-        run: apt install wget net-tools -y
+        run: sudo apt install wget net-tools -y
         
       - name: Run a one-line script
         run: echo Hello, world!
